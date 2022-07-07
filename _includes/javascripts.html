@@ -1,0 +1,25 @@
+<!-- JS -->
+<script src="{{site.baseurl}}/assets/js/jquery-3.2.1.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/jekyll-search.js"></script>
+<script src="{{site.baseurl}}/assets/js/modernizr.js"></script> <!-- Modernizr -->
+	<script type="text/javascript" src="{{site.baseurl}}/assets/js/lightbox.js"></script>
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{site.baseurl}}/search.json',
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: 'No results found',
+    fuzzy: false,
+    exclude: ['Welcome']
+  });
+</script>
+<script src="{{site.baseurl}}/assets/js/main.js"></script>
+<script src="{{site.baseurl}}/assets/js/jquery.mobile.custom.min.js"></script>
+<!-- txtpen -->
+<script src="https://txtpen.codes/txtpen-hn-embed.min.js"></script>
+<!-- MathJax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<script src="{{site.baseurl}}/assets/js/books.js"></script>
+
+

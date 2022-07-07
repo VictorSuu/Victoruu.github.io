@@ -1,0 +1,67 @@
+---
+layout: home-page 
+title: Watching
+permalink: /movies/
+---
+
+<div class="small-wrapper">
+  <div class="about-container"> 
+    <section class="about-header">
+      <div class="subtitle">
+        <img src=https://www.gannett-cdn.com/presto/2019/06/15/PCIN/213f0347-6e3f-4c0d-a034-dfb4da4e87e4-The_Horse_in_Motion_high_res.jpg?crop=2879,1632,x0,y0&width=3200&height=1680&fit=bounds" alt="">  
+		<p>The Horse in Motion - Eadweard Muybridge</p>
+	  </div>
+    </section>
+
+	<p>This is a list of movies I keep track with. I enjoy the moving motions while at rest.</p>
+	<p>If you would love to discuss some movies with me or watch some with me in the future, do let me know. </p>
+
+            <hr/>
+
+            <p>Filter by watching status:</p>
+            <div class='buttons'>
+                <button class='toggle-button' id="want to watch" onclick='toggleStatus("want to watch")'>want to watch</button>
+                <button class='toggle-button' id="watched" onclick='toggleStatus("watched")'>watched</button>
+            </div>
+
+			<p>
+                Filter by 
+                <select name="any-all" id="any-all" onchange="applyFilters()">
+                    <option value="any">any</option>
+                    <option value="all">all</option>
+                </select>
+                 of the selected tags:
+            </p>
+
+			<div class='buttons'>
+				{% for tag in site.movietags %}
+                <button class='toggle-button' id="{{ tag.name }}" onclick='toggleTag("{{ tag.name }}")'>{{ tag.name }}</button>
+				{% endfor %}
+			</div>
+
+
+{% for movie in site.movies %}
+			<div class="book">
+                <div class="summary"> 
+                    <img class="cover" src="{{ movie.img }}"/>
+                    <div class="details">
+                        <div class="title">{{ movie.title }}</div>
+                        <div class="author">{{ movie.year }}</div>
+                        <div class="status-and-date">
+                            <strong class="status">{{ movie.status }}</strong>
+                             as of {{ movie.date | date: "%B %d, %y"}}
+                        </div>
+                        <div class="notes">{{ movie.content }}</div>
+                    </div>
+                </div>
+                <div class="tags">
+
+                        tags: 
+                    <span class="taglist">{{ movie.t }}</span>
+                </div>
+            </div>
+{% endfor %}
+
+  </div> <!-- End About Container -->
+</div> <!-- End Small Wrapper -->
+
