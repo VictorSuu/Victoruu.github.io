@@ -1970,3 +1970,36 @@ SVG Icons - svgicons.sparkk.fr
   stroke: #4691f6;
   stroke-width: 1;
 }
+
+/* === Art === */
+
+.art {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.art img {
+    width: 60%;
+	display: inline-block;
+    vertical-align:top;
+    box-shadow: 3px 3px 5px grey;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.art span {
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 6%;
+    margin-top: 30%;
+	background-color: #f2f2f2ff;
+    box-shadow: 3px 3px 5px grey;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.art span p {
+    font-size: 10px;
+}
+
