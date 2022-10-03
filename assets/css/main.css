@@ -2007,3 +2007,16 @@ SVG Icons - svgicons.sparkk.fr
 	font-family: Apple Chancery, cursive;
 }
 
+.art-coll {
+    padding: 30px;
+    transition: box-shadow 0.1s ease-out 50ms;
+}
+
+.art-coll:hover {
+    box-shadow: 3px 3px 5px lightgrey;
+}
+
+.art-coll a {
+	display: block;
+	text-align: right;
+}
