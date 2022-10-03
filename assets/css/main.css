@@ -542,6 +542,7 @@ img {
 	display: block;
 	border-radius: 1%;
 	border-style: none;
+	pointer-events: none;
 }
 
 figcaption {
@@ -1989,7 +1990,6 @@ SVG Icons - svgicons.sparkk.fr
 
 .art span {
     width: 200px;
-    height: 150px;
     display: inline-block;
     margin-left: 6%;
     margin-top: 60%;
@@ -2019,4 +2019,33 @@ SVG Icons - svgicons.sparkk.fr
 .art-coll a {
 	display: block;
 	text-align: right;
+}
+
+/* === gallery === */
+
+.image-gallery {
+	overflow: auto;
+	margin-left: -1%!important;
+}
+
+.image-gallery a {
+	float: left;
+	display: block;
+	margin: 0 0 1% 1%;
+	width: 19%;
+	text-align: center;
+	text-decoration: none!important;
+}
+
+  .image-gallery a span {
+display: block;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+padding: 3px 0;
+}
+
+.image-gallery a img {
+width: 100%;
+display: block;
 }
