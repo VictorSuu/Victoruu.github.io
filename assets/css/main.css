@@ -1974,13 +1974,22 @@ SVG Icons - svgicons.sparkk.fr
 
 /* === Art === */
 
-.art {
+.art, .art-h {
     margin-top: 30px;
-    margin-left: 20px;
+    margin-bottom: 50px;
 }
 
 .art img {
     width: 60%;
+	display: inline-block;
+    vertical-align:top;
+    box-shadow: 3px 3px 5px grey;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.art-h img {
+    width: 70%;
 	display: inline-block;
     vertical-align:top;
     box-shadow: 3px 3px 5px grey;
@@ -1999,7 +2008,22 @@ SVG Icons - svgicons.sparkk.fr
     font-size: 12px;
 }
 
+.art-h span {
+    width: 20%;
+    display: inline-block;
+    margin-left: 8%;
+    margin-top: 25%;
+	background-color: #f9f9f9ff;
+    box-shadow: 3px 3px 5px grey;
+    padding: 5px;
+    font-size: 12px;
+}
+
 .art span p {
+    font-size: 10px;
+}
+
+.art-h span p {
     font-size: 10px;
 }
 
