@@ -2,7 +2,7 @@
 title: Time and Place
 img: https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcollection.sinaimg.cn%2Fplfx%2F20101213%2FU5566P1081T2D6733F6DT20101213192346.jpg&f=1&nofb=1
 author: Ai Weiwei
-status: reading
+status: want to read
 date: Apri 30, 2022
 t: nonfiction, chinese
 ---

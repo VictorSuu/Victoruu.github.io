@@ -2,7 +2,7 @@
 title: The Mathematics of Secrets
 img: http://wordpress.rose-hulman.edu/holden/wp-content/uploads/sites/63/2016/12/k10826-198x300.gif
 author: Joshua Holden
-status: reading
+status: want to read
 date: Apri 30, 2022
 t: math, computer science, cryptography, english
 ---
