@@ -4,7 +4,7 @@ img: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.booksens
 author: Barton Gellman
 status: reading
 date: Nov 4, 2022
-t: nonfiction, cybersecurity, english
+t: nonfiction, security, english
 ---
 
 A book written by the journalist who helped with Snowden when he attempted to uncover the NSA's massive surveillance project. 

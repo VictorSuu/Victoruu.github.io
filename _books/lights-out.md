@@ -4,7 +4,7 @@ img: https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.randomhou
 author: Ted Koppel
 status: reading
 date: May 5, 2022
-t: nonfiction, cybersecurity, english
+t: nonfiction, security, english
 ---
 
 This is a book discussed a cyberattack on American power grid. A blackout lasting on weeks and months, and tens of millions of people over several states were affected.
