@@ -44,7 +44,7 @@ permalink: /books/
 			</div>
 
 
-{% for book in site.books %}
+{% for book in site.books reversed %}
 			<div class="book">
                 <div class="summary"> 
                     <img class="cover" src="{{ book.img }}"/>
